@@ -1,0 +1,17 @@
+debug: false
+exp_id: 1
+dataset_name: "f21aa/data"
+dataset_splits:
+  - "25"
+
+test_size: 0.05
+model_id: "deberta-v2-xlarge-23-24-base"
+
+max_length: 384
+batch_size: 32
+gradient_accumulation_steps: 4
+lr: 0.0000055
+num_epochs: 1
+num_steps: 350
+bf16: true
+hub_model_id: null #"f21aa/deberta-v2-xlarge-23-24-base"

@@ -1,0 +1,17 @@
+
+debug: false
+exp_id: 2
+dataset_name: "f21aa/data"
+dataset_splits:
+  - "25"
+
+test_size: 0.05
+model_id: "answerdotai/ModernBERT-large"
+
+max_length: 512
+batch_size: 256
+gradient_accumulation_steps: 1
+lr: 0.000005
+num_epochs: 1
+num_steps: 200
+bf16: true
